@@ -45,9 +45,9 @@ sed -i "s|^DB_PASSWORD=.*|DB_PASSWORD=${DB_PASSWORD}|" .env
 
 [ -n "$APP_URL" ]      && sed -i "s|^APP_URL=.*|APP_URL=${APP_URL}|" .env
 [ -n "$APP_KEY" ]      && sed -i "s|^APP_KEY=.*|APP_KEY=${APP_KEY}|" .env
-[ -n "$APP_LOCALE" ]   && sed -i "s/^APP_LOCALE=.*/APP_LOCALE=${APP_LOCALE}/" .env
-[ -n "$APP_CURRENCY" ] && sed -i "s/^APP_CURRENCY=.*/APP_CURRENCY=${APP_CURRENCY}/" .env
-[ -n "$APP_TIMEZONE" ] && sed -i "s/^APP_TIMEZONE=.*/APP_TIMEZONE=${APP_TIMEZONE}/" .env
+[ -n "$APP_LOCALE" ]   && sed -i "s|^APP_LOCALE=.*|APP_LOCALE=${APP_LOCALE}|" .env
+[ -n "$APP_CURRENCY" ] && sed -i "s|^APP_CURRENCY=.*|APP_CURRENCY=${APP_CURRENCY}|" .env
+[ -n "$APP_TIMEZONE" ] && sed -i "s|^APP_TIMEZONE=.*|APP_TIMEZONE=${APP_TIMEZONE}|" .env
 
 # ==========================================================================
 # Re-cache config if env vars were overridden
