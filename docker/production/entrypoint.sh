@@ -76,6 +76,11 @@ if ! use_internal_mysql; then
     done
 fi
 
+rm -f /etc/nginx/sites-enabled/default
+rm -f /etc/nginx/conf.d/default.conf
+
+nginx -t
+
 log "Starting services via Supervisor..."
 
 # ==========================================================================
