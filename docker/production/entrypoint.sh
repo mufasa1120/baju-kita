@@ -37,11 +37,11 @@ fi
 cd "$APP_DIR"
 
 log "Applying runtime environment overrides..."
-sed -i "s/^DB_HOST=.*/DB_HOST=${DB_HOST}/" .env
-sed -i "s/^DB_PORT=.*/DB_PORT=${DB_PORT}/" .env
-sed -i "s/^DB_DATABASE=.*/DB_DATABASE=${DB_DATABASE}/" .env
-sed -i "s/^DB_USERNAME=.*/DB_USERNAME=${DB_USERNAME}/" .env
-sed -i "s/^DB_PASSWORD=.*/DB_PASSWORD=${DB_PASSWORD}/" .env
+sed -i "s|^DB_HOST=.*|DB_HOST=${DB_HOST}|" .env
+sed -i "s|^DB_PORT=.*|DB_PORT=${DB_PORT}|" .env
+sed -i "s|^DB_DATABASE=.*|DB_DATABASE=${DB_DATABASE}|" .env
+sed -i "s|^DB_USERNAME=.*|DB_USERNAME=${DB_USERNAME}|" .env
+sed -i "s|^DB_PASSWORD=.*|DB_PASSWORD=${DB_PASSWORD}|" .env
 
 [ -n "$APP_URL" ]      && sed -i "s|^APP_URL=.*|APP_URL=${APP_URL}|" .env
 [ -n "$APP_KEY" ]      && sed -i "s|^APP_KEY=.*|APP_KEY=${APP_KEY}|" .env
