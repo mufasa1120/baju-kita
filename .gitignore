@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .agents
 .agent*
 .claude
@@ -42,3 +43,35 @@ skills-lock.json
 /vendor
 yarn.lock
 yarn-error.log
+=======
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+/public/build
+/storage/pail
+.env.backup
+.env.production
+.phpactor.json
+auth.json
+>>>>>>> 2e141a93f074f3a01e05c6c9ca0984fab59f2608
