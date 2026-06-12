@@ -147,7 +147,7 @@ return [
                     'state' => 'Provinsi',
                     'street-address' => 'Alamat Jalan',
                     'title' => 'Alamat',
-                    'vat-id' => 'ID Pajak (NPWP)',
+                    # 'vat-id' => 'ID Pajak (NPWP)',
                 ],
 
                 'edit' => [
@@ -165,7 +165,7 @@ return [
                     'street-address' => 'Alamat Jalan',
                     'title' => 'Alamat',
                     'update-btn' => 'Perbarui',
-                    'vat-id' => 'ID Pajak (NPWP)',
+                    # 'vat-id' => 'ID Pajak (NPWP)',
                 ],
             ],
 
@@ -1158,7 +1158,7 @@ return [
                 'street-address' => 'Alamat Jalan',
                 'telephone' => 'Telepon',
                 'title' => 'Alamat',
-                'vat-id' => 'Nomor NPWP',
+                # 'vat-id' => 'Nomor NPWP',
             ],
 
             'index' => [
