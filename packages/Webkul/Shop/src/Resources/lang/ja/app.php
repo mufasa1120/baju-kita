@@ -147,7 +147,6 @@ return [
                     'state' => '都道府県',
                     'street-address' => '住所',
                     'title' => '住所',
-                    'vat-id' => 'VAT番号',
                 ],
 
                 'edit' => [
@@ -165,7 +164,6 @@ return [
                     'street-address' => '住所',
                     'title' => '住所',
                     'update-btn' => '更新する',
-                    'vat-id' => 'VAT番号',
                 ],
             ],
 
@@ -463,7 +461,6 @@ return [
                         'postcode' => '郵便番号',
                         'state' => '州',
                         'title' => '住所情報',
-                        'vat-id' => 'VAT ID',
                     ],
 
                     'order-info' => [
@@ -1158,7 +1155,6 @@ return [
                 'street-address' => '住所',
                 'telephone' => '電話番号',
                 'title' => '住所',
-                'vat-id' => 'VAT番号',
             ],
 
             'index' => [

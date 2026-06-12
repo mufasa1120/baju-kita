@@ -370,7 +370,6 @@ return [
                         'street-address' => 'Alamat Jalan',
                         'telephone' => 'Telepon',
                         'title' => 'Alamat',
-                        'vat-id' => 'ID Pajak',
                     ],
 
                     'payment' => [
@@ -2194,7 +2193,6 @@ return [
                         'state' => 'Provinsi',
                         'street-address' => 'Alamat Jalan',
                         'title' => 'Tambah Alamat',
-                        'vat-id' => 'ID Pajak',
                     ],
 
                     'edit' => [
@@ -2213,7 +2211,6 @@ return [
                         'state' => 'Provinsi',
                         'street-address' => 'Alamat Jalan',
                         'title' => 'Edit Alamat',
-                        'vat-id' => 'ID Pajak',
                     ],
 
                     'address-delete-success' => 'Alamat berhasil dihapus',

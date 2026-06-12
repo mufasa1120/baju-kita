@@ -370,7 +370,6 @@ return [
                         'street-address' => 'Street Address',
                         'telephone' => 'Telephone',
                         'title' => 'Address',
-                        'vat-id' => 'Vat ID',
                     ],
 
                     'payment' => [
@@ -2194,7 +2193,6 @@ return [
                         'state' => 'State',
                         'street-address' => 'Street Address',
                         'title' => 'Create Address',
-                        'vat-id' => 'Vat ID',
                     ],
 
                     'edit' => [
@@ -2213,7 +2211,6 @@ return [
                         'state' => 'State',
                         'street-address' => 'Street Address',
                         'title' => 'Edit Address',
-                        'vat-id' => 'Vat ID',
                     ],
 
                     'address-delete-success' => 'Address Deleted Successfully',
