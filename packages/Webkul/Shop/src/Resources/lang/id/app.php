@@ -1158,7 +1158,6 @@ return [
                 'street-address' => 'Alamat Jalan',
                 'telephone' => 'Telepon',
                 'title' => 'Alamat',
-                # 'vat-id' => 'Nomor NPWP',
             ],
 
             'index' => [
